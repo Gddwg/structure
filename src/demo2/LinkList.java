@@ -39,7 +39,7 @@ public class LinkList<R> {
         int count = 0;
         Node node = this.first;
         while (node != null) {
-            if (node.data == data) {
+            if (node.data.equals(data)) {
                 count++;
             }
             node = node.next;

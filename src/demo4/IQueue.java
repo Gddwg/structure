@@ -30,6 +30,15 @@ public class IQueue<T> {
         }
     }
 
-
+    public void display(){
+        int i = front;
+        while(i != rear){
+            System.out.println(queueElem[i]);
+            i++;
+            if(i == queueElem.length){
+                i = 0;
+            }
+        }
+    }
 
 }

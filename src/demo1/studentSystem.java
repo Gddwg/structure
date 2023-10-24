@@ -15,22 +15,16 @@ public class studentSystem {
             System.out.println("5.退出");
             System.out.println("请输入你的选择");
             String choose = sc.next();
-            switch (choose){
-                case "1" -> {
-                    addStudent(list);
-                }case "2" -> {
-                    delStudent(list);
-                }case "3" -> {
-                    updateStudent(list);
-                }case "4" -> {
-                    queryStudent(list);
-                }case ("5")-> {
+            /*switch (choose){
+                case "1" -> addStudent(list);
+                case "2" -> delStudent(list);
+                case "3" -> updateStudent(list);
+                case "4" -> queryStudent(list);
+                case ("5")-> {
                     System.out.println("退出");
                     break loop;
-                }default -> {
-                    System.out.println("没有这个选项");
-                }
-            }
+                }default -> System.out.println("没有这个选项");
+            }*/
 
         }
 

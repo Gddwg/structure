@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        Math.sqrt(1);
         PriorityQueue<Course> courses = new PriorityQueue<>((o1, o2) -> {
             if(o1.lever != o2.lever){
                 return o1.lever - o2.lever;
